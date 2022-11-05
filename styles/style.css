@@ -1,0 +1,64 @@
+
+ @font-face { 
+    font-family: vazirNormal;
+    src: url('../fonts/vazir.eot');
+    src: url('../fonts/vazir.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir.woff2') format('woff2'), url('../fonts/vazir.woff') format('woff'), url('../fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+} 
+body{
+    direction: rtl;
+    font-family: vazirNormal;
+    
+}
+#header {
+    background: url('../image/sheet.jpg')no-repeat center center;
+    background-size: cover;
+    height: 600px;
+    background-attachment: fixed;
+    
+    
+}
+
+#header .email-input{
+    direction: rtl;
+}
+.container img{
+    height: 300px;
+    border-radius: 20px;
+}
+.content .title  h3::after{
+    content:'  ________';
+    color: blue;
+}
+
+.content .title  h3::before{
+    content:'  ________';
+    color: blue;
+}
+.contact{
+    background-color: #606c7b;
+    height: 200px;
+    background-attachment: fixed;
+}
+ .footer1{
+    background-color:#001a3e ;
+    /* height: 400px; */
+}
+/* productslist */
+.nav1 ul li {
+    border: 1px solid #606c7b;
+    border-radius: 5px;
+    padding: 13px;
+    background-color: #212529;
+    
+    
+    
+}
+nav ul{
+    list-style-type: none;
+    
+}
+img:hover{
+    padding: 5px;
+}

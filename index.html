@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyProject</title>
+  <link rel="stylesheet" href="JSmin/bootstrap.rtl.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"/>
+</head>
+<body>
+ 
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="javascript:void(0)">خدمات برشکاری برادران صداقت</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              فعالیت ها
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">خط برش ضخیم</a></li>
+              <li><a class="dropdown-item" href="#">خط برش گرم واسیدشویی</a>
+              <li><a class="dropdown-item" href="#">خط برش ورق سرد وگاوانیزه</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              خدمات
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">خدمات انبارداری تخلیه وبارگیری</a></li>
+              <li><a class="dropdown-item" href="#">امکانات وتجهیزات فعال</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              مشتریان
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">خوداظهاری مشتریان</a></li>
+              <li><a class="dropdown-item" href="#">فرم رضایتمندی</a></li>
+              <li><a class="dropdown-item" href="#">راهنمایی ایجاد کدوفروش به مشتریان</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">ارتباط بامشتریان</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">پورتال کارکنان کارگاه</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">ارتباط باما</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#anotherproduct">لیست دیگر محصولات</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <div class="btn-group" role="group" aria-label="ورود کارکنان">
+            <button type="button" class="btn btn-primary">ورود</button>
+            <button type="button" class="btn btn-success">ثبت نام</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Subscribe -->
+  <div id="header" class="d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mx-auto text-center">
+          <h2 class="h2 text-white pb-4 lh-lg">خدمات برشکاری برادران صداقت آماده ای هرگونه خدمات جهت بهبودی ورضایتمندی شماعزیزان درمسیر پیشرفت وترقی میباشد....</h2>
+          <form action="">
+            <input type="email" class=" email-input border-0 p-2 rounded-2 w-75 " placeholder="ایمیل شما.....">
+            <input type="submit" value="ثبت نام..." class="btn btn-success py-2 px-4">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- content -->
+
+  <div class="container content">
+
+    
+         <div class="title  mx-auto text-center mt-4">
+        <h3>اطلاعات انواع ورق آهن</h3>
+        </div>
+   
+    
+      <div class="row">
+        <div class="col-lg-6 mt-4"><img class="w-100 " src="image/stellsheeet.jpg" alt="ورق شیت شده"></div>
+        <div class="col-lg-6 mt-4 "><img class="w-100 " src="image/black roll.jpg" alt="ورق شیت شده"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 mt-4"><img class="w-100 " src="image/roll2.jpg" alt="ورق شیت شده"></div>
+        <div class="col-lg-6 mt-4"><img class="w-100 " src="image/sheet.jfif" alt="ورق شیت شده"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 mt-4"><img class="w-100 " src="image/sheet.jfif" alt="ورق شیت شده"></div>
+        <div class="col-lg-6 mt-4"><img class="w-100 " src="image/roll.jpg" alt="ورق شیت شده"></div>
+      </div>
+  </div>
+  <br><br>
+<div style="border: 1px solid rgb(7, 7, 7);"></div>
+ <h2 class="text-center text-bg-dark pt-5"><span>لیست انواع ورق آهنی با قیمت آن</span></h2>
+
+  <!-- ProductsList -->
+  
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-lg-4 col-md-12  text-white">
+          <nav class="nav1">
+            <ul>
+              <li><span>قیمت ورق اسیدشویی</span></li>
+              <li><span>قیمت ورق سیاه</span></li>
+              <li><span>قیمت ورق روغنی</span></li>
+              <li><span>قیمت ورق گالوانیزه</span></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-lg-8 col-md-12">
+          <table class="table table-dark table-hover">
+            <thead>
+              <tr>
+                <th>عنوان</th>
+                <th>وزن</th>
+                <th>طول وعرض</th>
+                <th> قیمت (به تومان)</th>
+                <th>خرید</th>
+                <th> نوسانات (به تومان)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>ورق اسیدشویی</td>
+                <td>1200</td>
+                <td>125*100</td>
+                <td>22500 </td>
+                <td>ثبت سفارش </td>
+                <td>200 </td>
+              </tr>
+              <tr>
+                <td>ورق سیاه</td>
+                <td>7000</td>
+                <td>125*114</td>
+                <td>2100 </td>
+                <td>ثبت سفارش </td>
+                <td>120 </td>
+              </tr>
+              <tr>
+                <td>ورق روغنی</td>
+                <td>14000</td>
+                <td>100*100</td>
+                <td>27000 </td>
+                <td>ثبت سفارش </td>
+                <td>300 </td>
+              </tr>
+              <tr>
+                <td>ورق گالوانیزه</td>
+                <td>15000</td>
+                <td>125*100</td>
+                <td>3000 </td>
+                <td>ثبت سفارش </td>
+                <td>500 </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div style="border: 1px solid rgb(7, 7, 7); margin-top:15px;"></div>
+  
+  <!-- AnotherProducts -->
+  <div class="container-fluid">
+    <div class="container">
+      <h4 style="margin-top: 25px; font-size: 30px;text-align: center;" id="anotherproduct" ><span>لیست دیگر محصولات  </span></h4>
+
+      <div class="row pt-5">
+        <div class="col-lg-4 col-md-12"><img class="w-100" src="./image/gider.jfif" alt=""></div>
+        <div class="col-lg-4 col-md-12"><img class="w-100" src="./image/profile.jfif" alt=""></div>
+        <div class="col-lg-4 col-md-12"><img class="w-100" src="./image/pipe.jfif" alt=""></div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-lg-4 col-md-12"><img class="w-100" src="./image/rebar.jfif" alt=""></div>
+        <div class="col-lg-4 col-md-12"><img class="w-100" src="./image/corner.jfif" alt=""></div>
+        <div class="col-lg-4 col-md-12"><img class="w-100" src="./image/wire.jfif" alt=""></div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-lg-4 col-md-12"><img class="w-100" src="./image/silence.jfif" alt=""></div>
+        <div class="col-lg-4 col-md-12"><img class="w-100" src="./image/iron ore.jfif" alt=""></div>
+        <div class="col-lg-4 col-md-12"><img class="w-100" src="./image/wastage iron.jfif" alt=""></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- contact -->
+  <div class="container-fluid contact d-flex align-items-center mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h2 class="h2 text-white">هرآنچه درباره آهن آلات میخواهید بدانید ازمابپرسید!!!!!....</h2>
+          <a href="#" class="btn btn-success mt-2">باماتماس بگیرید</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+
+  <footer class="container-fluid footer1 pt-4 ">
+    <div class="row">
+      <div class="col-lg-3 col-md-12">
+        <h2 class="text-white text-center">دفترمرکزی</h2>
+        <p class="text-white text-center pt-3">اصفهان،فلاورجان،<br>خیابان نواب صفوی به سمت درچه <br>جنب اوراقی پناهی...</p>
+      </div>
+      <div class="col-lg-3 col-md-12">
+        <h2 class="text-white text-center">کارشناس</h2>
+        <ul class="list-inline">
+          <li class="text-white text-center pt-4 ">09133201707</li>
+          <li class="text-white text-center pt-4 ">09132860871</li>
+          <li class="text-white text-center pt-4 ">09132703659</li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-12">
+        <h2 class="text-white text-center">E-mail</h2>
+        <p class="p text-white text-center pt-3">لطفا نظرات وپیشنهادات خودرا ارسال نمایید..</p>
+        <p class="p text-white text-center pt-3"><a href="#">sedaqatali9@gmail.com</a></p>
+      </div>
+      <div class="col-lg-3 col-md-12">
+        <h2 class="text-white text-center">بازدیدکنندگان</h2>
+        <ul class="list-inline">
+          <li class="text-white text-center pt-3 ">بازدیدهایی امروز:112</li>
+          <li class="text-white text-center pt-3 ">بازدیدکنندگان امروز:135</li>
+          <li class="text-white text-center pt-3 ">بازدید دیروز:114</li>
+          <li class="text-white text-center pt-3 ">بازدیدکننده دیروز:120</li>
+          <li class="text-white text-center pt-3 ">کل بازدیدها:1350</li>
+          <li class="text-white text-center pt-3 ">کلبازدیدکنندگان:3000</li>
+
+        </ul>
+      </div>
+
+      <script>
+        <div id="map"></div>
+        function onMapClick(e) {
+            console.log(e.latlng);
+            L.marker(e.latlng).addTo(map);
+        }
+    
+        
+        var map = L.map('map').setView([32.55571418643763,51.510954989327665], 18);
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+        var marker = L.marker([32.55571418643763,51.510954989327665]).addTo(map);
+    
+        map.on('click', onMapClick);
+        
+    </script>
+
+    </div>
+  </footer>
+
+  
+
+  <script src="scripts/script.js"></script>
+  <script src="scripts/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"></script>
+  
+</body>
+
+</html>
